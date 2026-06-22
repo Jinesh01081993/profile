@@ -5,4 +5,3 @@ RUN npm install --omit=dev
 COPY src ./src
 EXPOSE 4002
 CMD ["npm", "start"]
-
